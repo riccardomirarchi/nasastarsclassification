@@ -20,5 +20,5 @@ for line in lines:
     line[4] = colors_matching[line[4]]
 
 # write lines back in a csv file
-writer = csv.writer(open('Stars_colorfixed.csv', 'w'))
+writer = csv.writer(open('Stars_manipulated.csv', 'w'))
 writer.writerows(lines)
