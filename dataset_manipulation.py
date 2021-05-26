@@ -4,9 +4,9 @@ import csv
 colors_matching = {'Red': 'Red', 'Blue': 'Blue', 'Blue-White': 'Blue-White',
                    'Blue-white': 'Blue-White', 'Blue White': 'Blue-White',
                    'White': 'White', 'white': 'White', 'Whitish': 'White',
-                   'yellow-white': 'White', 'Yellowish White': 'Yellowish', 'Orange': 'Orange',
-                   'yellowish': 'Yellowish', 'Yellowish': 'Yellowish', 'White-Yellow': 'White',
-                   'Orange-Red': 'Orange', 'Pale yellow orange': 'Orange', 'Color': 'Color',
+                   'yellow-white': 'White-Yellow', 'Yellowish White': 'White', 'Orange': 'Orange',
+                   'yellowish': 'White-Yellow', 'Yellowish': 'White-Yellow', 'White-Yellow': 'White-Yellow',
+                   'Orange-Red': 'Orange', 'Pale yellow orange': 'Yellow', 'Color': 'Color',
                    'Blue white': 'Blue-White'}
 
 type_matching = {'0': 'Red Dwarf', '1': 'Brown Dwarf', '2': 'White Dwarf',
